@@ -1,8 +1,8 @@
 import './App.css';
-import useMouseLocation from "./useMouseLocation";
-import useNow from './useNow';
-import useSimpleTimer from './useSimpleTimer';
-import useTimer from './useTimer';
+import useMouseLocation from "./hooks/useMouseLocation";
+import useNow from './hooks/useNow';
+import useSimpleTimer from './hooks/useSimpleTimer';
+import useTimer from './hooks/useTimer';
 
 function App() {
 
