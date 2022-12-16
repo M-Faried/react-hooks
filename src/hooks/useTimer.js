@@ -34,18 +34,19 @@ const useTimer = () => {
         }
 
         /***************** Important Note *****************
-        * The following is commented since the returned function is implemented when the strict mode 
-        * mode in development or use (npm run build && serve -s build) command
-        * in order for the code to run as expected on a production environment.
+        * The following is commented since the returned function from the effect is implemented 
+        * when the strict mode is enabled in development. 
+        * You can keep it commented or use (npm run build && serve -s build) command
+        * in order for the code to run as expected on production environment.
         * 
         * To install serve use the command (npm install -g serve).
         *****************/
 
         // Clearing the watchDogRef interval upon unmount if it is already set.
-        return () => {
-            if (watchDogRef.current)
-                clearInterval(watchDogRef.current);
-        }
+        // return () => {
+        //     if (watchDogRef.current)
+        //         clearInterval(watchDogRef.current);
+        // }
 
         //eslint-disable-next-line
     }, []);
