@@ -1,6 +1,6 @@
 # Project Description
 
-This project is created to share the hooks code which is explained in this medium article [LINK]()
+This project is created to share the hooks code which is explained in this medium article [LINK](https://medium.com/p/99636cbbff72#8854-4e1425564631)
 
 In order to use this code please run 'npm install' to install all of the required packages and then use on of the following scripts to build and run the mock application.
 
