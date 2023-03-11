@@ -1,68 +1,27 @@
-# Project Description
+# 📐 Building An Accurate Timer With React Hooks
 
-This project is created to share the hooks code which is explained in this medium article [LINK](https://medium.com/p/99636cbbff72#8854-4e1425564631)
+A repo created to demonstrate how to create an accurate timer using react hooks.
 
-In order to use this code please run 'npm install' to install all of the required packages and then use on of the following scripts to build and run the mock application.
+<br>
 
+> 👉 You can find the full explanation of the project in the Medium article: **[LINK](https://medium.com/@m.a.faried/building-a-real-time-react-hook-99636cbbff72)**
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+## 🚀 Running The Application
+* Open a new terminal and cd into the project's folder.
+* Run the comand "npm install" to install all the dependencies in either folder.
+* Run the command "npm run start".
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> 👉 **Note:**
+>
+> * When Strict mode is enabled in development, the return function of the useEffect is executed directly in the file src\hooks\useTimer.js.
+>
+> * You can keep it commented or use (npm run build && serve -s build) command in order for the code to run as expected on production environment.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 💳 Contact Me:
+You can send me an email on **m.a.faried@gmail.com** or chat with me on my **[LinkedIn](https://www.linkedin.com/in/mo-faried-0258a445/)** profile.
